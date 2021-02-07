@@ -1,0 +1,11 @@
+lst =  []
+n = int(input("The count of total numbers: "))
+for i in range(0,n):
+    ele = int(input())
+    lst.append(ele)
+pos, neg  =0,0
+for  num in lst:
+    if num>0:
+        print (f"The positive integers are: ", num)
+    else:
+        print(f"The negative integers are: ", num)
