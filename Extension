@@ -1,0 +1,6 @@
+a = input ("Input the file name:  ")
+b= a.split(".")
+
+if b[-1] == ('py'):
+    e = ("'python'")
+    print("The extension file is : " + e )
